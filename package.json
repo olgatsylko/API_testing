@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --config ./src/config/.mocharc.js"
+    "test": "mocha --config ./src/config/.mocharc.js --require ./src/tests/hooks.js"
   },
   "repository": {
     "type": "git",

@@ -1,7 +1,7 @@
 const api = require ('../app/api');
 
 describe ('API: manifest.json', function(){
-    it ('Test requiest with json', async function(){
+    it ('Test first requiest: /manifest.json', async function(){
         const resp = await api.manifest.getManifest();
         api.expect(resp.status).to.equal(200);
         api.expect(resp.data.name).to.equal('Codecademy');

@@ -1,7 +1,9 @@
 const manifestSchema = require ('./manifestSchema');
+const assetsSchema = require ('./assetsSchema');
 
 const schema = {
-    manifestSchema
+    manifestSchema,
+    assetsSchema
 };
 
 module.exports = schema;

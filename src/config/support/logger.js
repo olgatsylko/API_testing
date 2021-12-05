@@ -13,7 +13,7 @@ class Printer {
             WARN: 1,
             DESCRIBE: 2, 
             IT: 3,
-            step: 4,
+            //step: 4,
             method: 5
         },
         colors: {

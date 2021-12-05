@@ -4,7 +4,7 @@ const printer = require('../config/support/logger');
 
 class BaseApi {
     constructor() {
-        this.axios  = axios;
+        this.axios = axios;
         this.axios.defaults.baseURL = 'https://www.codecademy.com'
     }
 
